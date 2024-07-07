@@ -351,6 +351,138 @@ html{
 }
 
 .educbg{
-    height: 700px;
+    height: auto;
     background: #1A374D;
+}
+.edu1{
+    height: auto;
+    width: 60%;
+    box-shadow: 1px 2px 24px 0px rgba(121,156,233,0.75);
+    -webkit-box-shadow: 1px 2px 24px 0px rgba(121,156,233,0.75);
+    -moz-box-shadow: 1px 2px 24px 0px rgba(121,156,233,0.75);
+
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1.5% 0;
+    transition: all ease-in .4s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.edu1 h4,i{
+    color: #29b9d6;
+}
+.edu1 h4{
+    line-height: 30px;
+}
+.edu1 h3{
+    font-family: cursive;
+}
+.educdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    flex-direction: column;
+}
+.edu1:hover{
+    transform: scale(1.07);
+    background-color: #29b9d6;
+
+}
+
+.edu1:hover h4{
+    color: black;
+}
+.edu1:hover h4 i{
+    color: black;
+}
+.edu1:hover h3{
+    color: black;
+}
+@media screen and (max-width:800px) {
+.edu1{
+    width: 80%;
+    padding: 10%;
+    margin: 5% 10%;
+}
+.edutext h2{
+    font-size: 2rcap;
+}
+    
+}
+
+/* skills */
+.skilbg
+{
+    background-color: #102434f0;
+    height: 700px;
+
+}
+
+.skil1{
+    height: 50px;
+    width: 60%;
+    border: 1px solid #29b9d6;
+    border-radius: 5px;
+    padding: 0.4%;
+    margin: 1% 0;
+}
+#css{
+    /* height: 40px; */
+    width: 85%;
+
+
+
+}
+#js{
+    width: 60%;
+}
+#java{
+    width: 55%;
+}
+#as{
+    width: 70%;
+}
+#msof{
+    width: 94%;
+}
+.skiltext{
+    height: 40px;
+    width: 90%;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #5adbf5;
+    padding: 1%;
+
+}
+.skil1 p{
+    float: right;
+    margin-top: 1% ;
+    font-size: 1.8rcap;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:800px) {
+    .skil1{
+        width: 90%;
+        padding: .8%;
+        
+    }
+    .skiltext{
+        width: 86%;
+    }
+    #css{
+        width: 78%;
+    }
+    #msof{
+        width: 90%;
+    }
+    .skil1 p{
+        font-size: 1.5rcap;
+    }
+    
+
 }
