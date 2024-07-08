@@ -35,7 +35,7 @@ h1 {
 }
 nav .left
 {
-    width: 54%;
+    width: 50%;
 }
 nav{
     display: flex;
@@ -51,7 +51,7 @@ nav .right a{
 
     text-decoration: none;
     font-size: 1.7rcap;
-    margin: 0 20px;
+    margin: 0 12px;
     transition: color .2s ease-in-out;
     font-family: "Comic Neue", cursive;
 }
@@ -414,7 +414,7 @@ html{
 .skilbg
 {
     background-color: #102434f0;
-    height: 700px;
+    height: auto;
 
 }
 
@@ -463,6 +463,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 0 7%;
 }
 
 @media screen and (max-width:800px) {
@@ -485,4 +486,61 @@ html{
     }
     
 
+}
+/* project */
+.projbg{
+    background: #102434e0;
+    height: auto;
+
+}
+
+.proj1{
+    height: 350px;
+    width: 300px;
+    /* background-color:#27496D ; */
+    overflow: hidden;
+    
+}
+.projtext{
+
+    height: 450px;
+    width: 300px;
+    transition: all ease-in-out .3s;
+    /* margin: 0 2%; */
+
+    /* background-color:hsl(206, 98%, 65%) ; */
+}
+#hire{
+/* display: grid; */
+    left: 25%;
+    /* width: 100%; */
+
+}
+#btn{
+    width: 60%;
+}
+.projtext p{
+    opacity: 0.7;
+    font-size: 1.3rcap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.proj1:hover .projtext{
+    transform: translateY(-22%);
+}
+.proflex{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:800px) {
+    .proj1{
+    margin: 10% 0;
+    padding: 2%;
+
+    }
+    
+    
 }
