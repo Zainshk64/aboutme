@@ -513,11 +513,13 @@ html{
 #hire{
 /* display: grid; */
     left: 25%;
+    padding: 10%;
+    text-align: center;
     /* width: 100%; */
 
 }
 #btn{
-    width: 60%;
+    width: 50%;
 }
 .projtext p{
     opacity: 0.7;
@@ -535,12 +537,117 @@ html{
     flex-wrap: wrap;
 }
 
+
+.contactbg{
+    background: #102434f0;
+    height: auto;
+}
+
+.inputs{
+    padding: 3%;
+}
+.allinput{
+    height: auto;
+    width: 830px;
+    border: 1px solid #29b9d6;
+    padding: 4%;
+    border-radius: 5px;
+    margin: auto;
+}
+input{
+    background: none;
+    border: 1px solid #29b9d6;
+    padding: 2%;
+    border-radius: 5px;
+
+}
+::placeholder{
+    color: #83eaff67;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    background: none;
+    border: 1px solid #29b9d6;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 0 7px;
+
+
+}
+textarea:focus
+{
+    outline: none;
+}
+.finput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#fname,#lname{
+    width: 45%;
+    margin: 0 1%;
+
+}
+#email{
+    width: 98%;
+    margin:  3% 7px;
+
+}
+
+#btn-con{
+    width: 40%;
+    /* margin: auto; */
+}
+#btn-1{
+    margin: auto;
+    /* width: ; */
+}
 @media screen and (max-width:800px) {
     .proj1{
     margin: 10% 0;
     padding: 2%;
 
     }
+    .allinput{
+        width: 330px;
+        padding: 5%;
+     
+    }
+    textarea{
+        width: 280px;
+    }
+   
+    input{
+        padding: 4%;
+    }
+    #fname,#lname, #email{
+        width: 100%;
+        margin: 6% 0;
+    
+    }
+    .inputs{
+        padding: 0 0 20%;
+    }
+    #btn-1{
+        width: 100%;
+    }
     
     
+}
+.ftbg{
+    background: #0B2447;
+}
+.center{
+    padding: 2%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center p a{
+    text-decoration: none;
+    opacity: 0.8;
+
 }
