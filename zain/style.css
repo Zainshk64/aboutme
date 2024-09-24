@@ -227,7 +227,7 @@ label{
     font-size: 4rcap;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:740px){
     .maindiv{
         width: 90%;
         padding: 20% 5%;
@@ -297,7 +297,6 @@ html{
 
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     margin: 0 5%;
     flex-wrap: wrap;
 
@@ -306,36 +305,29 @@ html{
 .text{
     width: 60%;
     font-family: "Handlee", cursive;
-    /* font-weight: 100; */
 
 }
-/* .text p{
-    width: 60%;
-} */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1050px){
     .picortext{
         align-items: center;
     }
     .text p{
         font-size: 1.4rcap;
     }
-}
-
-
-
-@media screen and (max-width:740px){
+    .text{
+        width: 70%;
+    }
     .mypic{
-        height: 460px;
-        width: 100%;
-        margin: auto;
+        width: 80%;
+        height: 400px;
         border-radius: 0px;
     }
+      
     .text{
         width: 90%;
         padding: 10% 0;
     }
-    
     .head h1{
         font-size: 3rcap;
         padding: 4%;
@@ -343,10 +335,14 @@ html{
     .head{
         padding: 15% 0 0 ;
     }
-    /* #educ{
-        padding: 15% 0 0;
-    } */
 
+   
+}
+
+
+
+@media screen and (max-width:790px){
+ 
 
 }
 
@@ -415,6 +411,7 @@ html{
 {
     background-color: #102434f0;
     height: auto;
+    padding-bottom: 5%;
 
 }
 
@@ -427,23 +424,19 @@ html{
     margin: 1% 0;
 }
 #css{
-    /* height: 40px; */
     width: 85%;
-
-
-
 }
 #js{
+    width: 75%;
+}
+#react{
     width: 60%;
-}
-#java{
-    width: 55%;
-}
-#as{
-    width: 70%;
 }
 #msof{
     width: 94%;
+}
+#tailwind{
+    width: 80%;
 }
 .skiltext{
     height: 40px;
@@ -613,12 +606,12 @@ textarea:focus
 
     }
     .allinput{
-        width: 330px;
-        padding: 5%;
+        width: 70%;
+        padding: 3%;
      
     }
     textarea{
-        width: 280px;
+        width: 100%;
     }
    
     input{
@@ -634,6 +627,9 @@ textarea:focus
     }
     #btn-1{
         width: 100%;
+    }
+    .center{
+        font-size: 1rcap;
     }
     
     
@@ -653,7 +649,7 @@ textarea:focus
 }
 .reveal {
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(-150px);
     opacity: 0;
     transition: 1s all ease;
   }
